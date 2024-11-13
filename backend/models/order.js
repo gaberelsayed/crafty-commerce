@@ -5,7 +5,7 @@ const orderSchema = mongoose.Schema({
     address: {
       type: String,
       required: true,
-    },
+    }, 
     city: {
       type: String,
       required: true,
